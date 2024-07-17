@@ -23,7 +23,7 @@ class BankingApplication:
         self.login_register_frame.pack(fill=tk.BOTH, expand=True)
         
         # Load and place the logo
-        self.logo_image = Image.open("Images/Pocketg.jpg")
+        self.logo_image = Image.open("Images/Pocketg1.jpg")
         self.logo_image = self.logo_image.resize((500, 500))
         self.logo_photo = ImageTk.PhotoImage(self.logo_image)
         self.logo_label = tk.Label(self.login_register_frame, image=self.logo_photo, bg="#30949D")
