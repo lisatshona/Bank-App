@@ -1,4 +1,4 @@
-import stream as streamlit
+import streamlit as st
 import tkinter as tk
 from tkinter import messagebox, filedialog
 from datetime import datetime
